@@ -44,12 +44,12 @@ def build_jira_payload(threat, project_key):
     return {
         "fields": {
             "project": {
-                "key": project_key          # ✅ NOT hardcoded
+                "key": project_key  
             },
             "summary": threat["title"],
             "description": description,
             "issuetype": {
-                "name": "Task"              # ✅ safest issue type
+                "name": "Task"
             },
             "priority": {
                 "name": priority
