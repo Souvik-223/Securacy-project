@@ -71,6 +71,8 @@ POST /convert
 - Duplicate detection is omitted due to Jira Cloud API restrictions
 ---
 ## Project Structure
+
+```json
 Securacy-project/
 ├── app.py
 ├── jira_client.py
@@ -79,6 +81,7 @@ Securacy-project/
 ├── sample_input.json
 ├── .env.example
 └── README.md
+```
 ---
 ## Requirements
 - Python 3.9+
