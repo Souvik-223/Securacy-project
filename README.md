@@ -26,7 +26,6 @@ This project automates the process by:
 - Secure authentication using Jira API tokens
 - Per-threat error handling
 - Compatible with Jira Cloud REST API v3
--
 ---
 ## Project Setup
 
